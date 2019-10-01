@@ -1,0 +1,15 @@
+# feh --bg-scale Dropbox/グラフィック/Ryan\ Schroeder.jpg &
+nitrogen --restore &
+# light-locker &
+compton -CGb -o 0
+# urxvtd -o -f
+tint2 &
+fcitx-autostart &
+volumeicon &
+blueman-applet &
+thunar --daemon &
+easystroke &
+dropbox &
+enpass &
+# autocutsel -fork &
+# autocutsel -selection PRIMARY -fork &

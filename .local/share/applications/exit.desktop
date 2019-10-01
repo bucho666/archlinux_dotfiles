@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=終了
+Comment=マシンをハイバネート状態にする。
+Exec=/home/bucho/.local/bin/hibernate
+Icon=application-exit
+Terminal=false
+Type=Application
+Categories=System

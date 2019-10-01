@@ -1,0 +1,12 @@
+.cache/dein/dein.toml
+.config/nvim/init.vim
+.config/obmenu-generator/schema.pl
+.config/openbox/autostart
+.config/openbox/menu.xml
+.config/openbox/rc.xml
+.config/sakura/sakura.conf
+.config/tint2/tint2rc
+.local/bin
+.local/share/applications
+.bashrc
+.tmux.conf

@@ -1,0 +1,2 @@
+#!/bin/sh
+yad --center --image "application-exit" --button=はい:0 --button=いいえ:1 --title="終了" --text="終了しますか？" && (dm-tool switch-to-greeter; systemctl hibernate)

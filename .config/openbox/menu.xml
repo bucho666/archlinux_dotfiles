@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="ウェブブラウザ" icon="/home/bucho/.config/obmenu-generator/icons/23d9368a0cb15dbff0e14de2776536a6.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="エディタ" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png"><action name="Execute"><command><![CDATA[medit]]></command></action></item>
+    <item label="ターミナル" icon="/home/bucho/.config/obmenu-generator/icons/ed9a0f443037c079b1ed9ad8746c08b0.png"><action name="Execute"><command><![CDATA[sakura]]></command></action></item>
+  <separator/>
+    <item label="ArchLinux(デスクトップ)" icon="/home/bucho/.config/obmenu-generator/icons/6f641fed3ee6f5c3515b51862812be6b.png"><action name="Execute"><command><![CDATA[xdg-open /home/bucho/Dropbox/メモ/Linux/archlinux/ArchLinux(デスクトップ)/]]></command></action></item>
+  <separator/>
+  <menu id="0.60032954423605" icon="/home/bucho/.config/obmenu-generator/icons/c8f8c276ec2ae6d8c4ce11a4b70f68ea.png" label="アクセサリ">
+    <item label="About Xfce" icon="/home/bucho/.config/obmenu-generator/icons/726b65594bd4064410f09e19e2c55fb7.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/bucho/.config/obmenu-generator/icons/4a7dfde9a4e7b0f6a1e5b638d58416f7.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="compton" icon="/home/bucho/.config/obmenu-generator/icons/1e71b83c02561df5921e831c7078b937.png"><action name="Execute"><command><![CDATA[compton]]></command></action></item>
+    <item label="Easystroke Gesture Recognition" icon="/home/bucho/.config/obmenu-generator/icons/0b6889a65f5ede95331a66745400012e.png"><action name="Execute"><command><![CDATA[easystroke]]></command></action></item>
+    <item label="Enpass" icon="/home/bucho/.config/obmenu-generator/icons/75d51c27e24e3e5adca34f024f8ddde6.png"><action name="Execute"><command><![CDATA[/opt/enpass/Enpass]]></command></action></item>
+    <item label="Fcitx" icon="/home/bucho/.config/obmenu-generator/icons/176fd118a211e3870b386c091924cf06.png"><action name="Execute"><command><![CDATA[fcitx]]></command></action></item>
+    <item label="File Manager" icon="/home/bucho/.config/obmenu-generator/icons/6f641fed3ee6f5c3515b51862812be6b.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/bucho/.config/obmenu-generator/icons/de3a00b2fd9f672cec3521d9f2d4a7d6.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="medit" icon="/home/bucho/.config/obmenu-generator/icons/fad46d44bd29f71cf4a5962fbf93dc40.png"><action name="Execute"><command><![CDATA[medit]]></command></action></item>
+    <item label="Neovim" icon="/home/bucho/.config/obmenu-generator/icons/4fbccdb5839068f9f373d5a6cf8967cf.png"><action name="Execute"><command><![CDATA[xfce4-terminal -e 'nvim']]></command></action></item>
+    <item label="nitrogen" icon="/home/bucho/.config/obmenu-generator/icons/ebb365e7e82b40b522b771e14f7ed240.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Sakura" icon="/home/bucho/.config/obmenu-generator/icons/f6f72b12d92bb54c05aada12bb72b406.png"><action name="Execute"><command><![CDATA[sakura]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/bucho/.config/obmenu-generator/icons/ed9a0f443037c079b1ed9ad8746c08b0.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/bucho/.config/obmenu-generator/icons/4a7dfde9a4e7b0f6a1e5b638d58416f7.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Xarchiver" icon="/home/bucho/.config/obmenu-generator/icons/c8076a48a1bb73b2532a85fc8d6b01fe.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+  </menu>
+  <menu id="0.448410457090603" icon="/home/bucho/.config/obmenu-generator/icons/1054079ee4ac116a1e463bd327c2515b.png" label="Development">
+    <item label="CMake" icon="/home/bucho/.config/obmenu-generator/icons/15453da1877fd380fc1e6d0250c31a0c.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Icon Browser" icon="/home/bucho/.config/obmenu-generator/icons/a6ee2a35e26f3a3df8444ace0242e4b4.png"><action name="Execute"><command><![CDATA[yad-icon-browser]]></command></action></item>
+  </menu>
+  <menu id="0.917597852685628" icon="/home/bucho/.config/obmenu-generator/icons/6abce66dac0d524983b25a254dda633d.png" label="マルチメディア">
+    <item label="Qt V4L2 test Utility" icon="/home/bucho/.config/obmenu-generator/icons/fa4382c276eabc4473ae1dba9aedd3a2.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/bucho/.config/obmenu-generator/icons/a9f69cdcae6c7504bb45f240cf8f4203.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="Volume Icon" icon="/home/bucho/.config/obmenu-generator/icons/6abce66dac0d524983b25a254dda633d.png"><action name="Execute"><command><![CDATA[volumeicon]]></command></action></item>
+  </menu>
+  <menu id="0.913621787304642" icon="/home/bucho/.config/obmenu-generator/icons/287574d203c21b5533f8cceeeb3383b5.png" label="ネットワーク">
+    <item label="Avahi SSH Server Browser" icon="/home/bucho/.config/obmenu-generator/icons/7d5fa01623f28aa0d7b7f4e18fb36ee0.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/bucho/.config/obmenu-generator/icons/7d5fa01623f28aa0d7b7f4e18fb36ee0.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Dropbox" icon="/home/bucho/.config/obmenu-generator/icons/543eaa308590e1f9a6a37d1cc3bcfcf4.png"><action name="Execute"><command><![CDATA[dropbox]]></command></action></item>
+    <item label="Google Chrome" icon="/home/bucho/.config/obmenu-generator/icons/23d9368a0cb15dbff0e14de2776536a6.png"><action name="Execute"><command><![CDATA[/usr/bin/google-chrome-stable]]></command></action></item>
+    <item label="Mail Reader" icon="/home/bucho/.config/obmenu-generator/icons/3b6b8b92cfb75e74091604562de9853b.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Web Browser" icon="/home/bucho/.config/obmenu-generator/icons/4a392f683682853e58a73bf9054c0d29.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.364356958435639" icon="/home/bucho/.config/obmenu-generator/icons/89073af24c2ed3d7a21d0084d10fdcf5.png" label="設定">
+    <item label="Customize Look and Feel" icon="/home/bucho/.config/obmenu-generator/icons/25ee2d69d237a5fbab8879cb35e07f1d.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Fcitx Configuration" icon="/home/bucho/.config/obmenu-generator/icons/176fd118a211e3870b386c091924cf06.png"><action name="Execute"><command><![CDATA[fcitx-configtool]]></command></action></item>
+    <item label="File Manager" icon="/home/bucho/.config/obmenu-generator/icons/6f641fed3ee6f5c3515b51862812be6b.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Keyboard and Mouse" icon="/home/bucho/.config/obmenu-generator/icons/4356c68295267064f8a6e1c293aacb48.png"><action name="Execute"><command><![CDATA[lxinput]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/bucho/.config/obmenu-generator/icons/de3a00b2fd9f672cec3521d9f2d4a7d6.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/bucho/.config/obmenu-generator/icons/25466882f3a65aa070219b616bcce24f.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/bucho/.config/obmenu-generator/icons/630762c4a5f8d85d0f0fed4820dbc4fa.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/bucho/.config/obmenu-generator/icons/2be5d1a631d5c79fcea298f1008e55d1.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/bucho/.config/obmenu-generator/icons/0c0d37668980db08320448475066de41.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+  </menu>
+  <menu id="0.4450050548039" icon="/home/bucho/.config/obmenu-generator/icons/78e2f334277187826d18b0bc37bb0847.png" label="システム">
+    <item label="Avahi Zeroconf Browser" icon="/home/bucho/.config/obmenu-generator/icons/7d5fa01623f28aa0d7b7f4e18fb36ee0.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/bucho/.config/obmenu-generator/icons/4a7dfde9a4e7b0f6a1e5b638d58416f7.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Fcitx" icon="/home/bucho/.config/obmenu-generator/icons/176fd118a211e3870b386c091924cf06.png"><action name="Execute"><command><![CDATA[fcitx]]></command></action></item>
+    <item label="jgmenu" icon="/home/bucho/.config/obmenu-generator/icons/01fe425790f2581bb6d65b1ef482a961.png"><action name="Execute"><command><![CDATA[jgmenu_run]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/bucho/.config/obmenu-generator/icons/de3a00b2fd9f672cec3521d9f2d4a7d6.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Sakura" icon="/home/bucho/.config/obmenu-generator/icons/f6f72b12d92bb54c05aada12bb72b406.png"><action name="Execute"><command><![CDATA[sakura]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/bucho/.config/obmenu-generator/icons/4a7dfde9a4e7b0f6a1e5b638d58416f7.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/bucho/.config/obmenu-generator/icons/83b0b3f21b72873742a7fc29d35bb049.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="ログアウト" icon="/home/bucho/.config/obmenu-generator/icons/9a21c8cbae6780d8b4a3a931c882ea26.png"><action name="Execute"><command><![CDATA[openbox --exit]]></command></action></item>
+    <item label="ロック" icon="/home/bucho/.config/obmenu-generator/icons/0e5a85522e1b5b068df658303f34d00a.png"><action name="Execute"><command><![CDATA[dm-tool switch-to-greeter]]></command></action></item>
+    <item label="終了" icon="/home/bucho/.config/obmenu-generator/icons/3cb716f43dbeaf8cf2ad885b67a07ba7.png"><action name="Execute"><command><![CDATA[yad --image "gtk-dialog-question" --button=はい:0 --button=いいえ:1 --title="終了" --text="終了しますか？" && (dm-tool switch-to-greeter; systemctl hibernate)]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.459662306724876" icon="/home/bucho/.config/obmenu-generator/icons/b6711fc20afa59b8ffa74a6b7ec27974.png" label="詳細設定">
+    <item label="Tint2 Panel" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.334341420833049" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/bucho/.config/obmenu-generator/icons/ccc0a1bb9a3c90afe55512ff4fe345dc.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/bucho/.config/obmenu-generator/icons/160b75a8bed7ecbedd05b0819a846527.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.778583312631245" icon="/home/bucho/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/bucho/.config/obmenu-generator/icons/d486e394b84297e4348d65ae0b0dda73.png"><action name="Execute"><command><![CDATA[medit ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/bucho/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="画面ロック" icon="/home/bucho/.config/obmenu-generator/icons/0e5a85522e1b5b068df658303f34d00a.png"><action name="Execute"><command><![CDATA[dm-tool switch-to-greeter]]></command></action></item>
+    <item label="ログアウト" icon="/home/bucho/.config/obmenu-generator/icons/9a21c8cbae6780d8b4a3a931c882ea26.png"><action name="Execute"><command><![CDATA[openbox --exit]]></command></action></item>
+    <item label="終了" icon="/home/bucho/.config/obmenu-generator/icons/3cb716f43dbeaf8cf2ad885b67a07ba7.png"><action name="Execute"><command><![CDATA[/home/bucho/.local/bin/hibernate]]></command></action></item>
+  </menu>
+</openbox_menu>
