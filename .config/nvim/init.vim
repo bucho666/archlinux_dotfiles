@@ -32,10 +32,8 @@ autocmd TermOpen * startinsert
 " s:はこのスクリプト内のみのスコープ
 function! s:ExecThis()
   " expand("%:e")は拡張子
-  :if expand("%:e") == "js"
-    " executeはコマンドモードで実行、!で外部コマンド実行、%は開いているファイル
-    " 拡張子がjsの場合は、"!node (開いているファイル)"を実行する。
-    :execute "terminal node " . "%"
+  :if expand("%:e") == "nim"
+    :execute "!nim c -r %"
   :else
     " %ftは開いているファイルのタイプ、pythonやperlなどはこれでＯＫ
     :execute "terminal " . &ft . " %"
